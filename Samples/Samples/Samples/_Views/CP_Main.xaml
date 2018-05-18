@@ -3,7 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Samples.CP_Main">
     <FlexLayout Direction="Column" >
-   
-
+        <Label Text="Usando FlexBox" FontAttributes="Bold" VerticalOptions="Center"/>
+        <Label Text="Primer contenedor"/>
+        <FlexLayout FlexLayout.Grow="1" Direction="Row" >
+            <BoxView Color="Aqua" HeightRequest="20" />
+            <BoxView Color="Red" HeightRequest="20" FlexLayout.Grow="1"/>
+            <BoxView Color="Blue" HeightRequest="20" />
+        </FlexLayout>
+        <Label Text="Segundo contenedor"/>
+        <FlexLayout FlexLayout.Grow="2" Direction="Row" >
+            <BoxView Color="Aqua" HeightRequest="20" FlexLayout.Basis="50" />
+            <BoxView Color="Red" HeightRequest="20"/>
+            <BoxView Color="Blue" HeightRequest="20"/>
+            <BoxView Color="Brown" HeightRequest="20"/>
+            <BoxView Color="Yellow" HeightRequest="20"/>
+            <BoxView Color="DarkBlue" HeightRequest="20"/>
+            <BoxView Color="GreenYellow" HeightRequest="20"/>
+            <BoxView Color="LightYellow" HeightRequest="20"/>
+            <BoxView Color="Wheat" HeightRequest="20"/>
+            <BoxView Color="SteelBlue" HeightRequest="20"/>
+            <BoxView Color="DarkViolet" HeightRequest="20"/>
+            <BoxView Color="RosyBrown" HeightRequest="20"/>
+            <BoxView Color="Cyan" HeightRequest="20"/>
+            <BoxView Color="DarkSalmon" HeightRequest="20"/>
+            <BoxView Color="Coral" HeightRequest="20"/>
+            <BoxView Color="Accent" HeightRequest="20"/>
+            <BoxView Color="SaddleBrown" HeightRequest="20"/>
+        </FlexLayout>
     </FlexLayout>
 </ContentPage>
