@@ -11,7 +11,7 @@ namespace Samples
 		{
 			InitializeComponent();
 
-			MainPage = new CP_Main();
+			MainPage = new DirectionRow();
 		}
 
 		protected override void OnStart ()
