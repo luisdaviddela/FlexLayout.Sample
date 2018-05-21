@@ -11,7 +11,7 @@ namespace Samples
 		{
 			InitializeComponent();
 
-			MainPage = new CP_Examples();
+			MainPage = new CP_FlexTwo();
 		}
 
 		protected override void OnStart ()

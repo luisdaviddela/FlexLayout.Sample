@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.CP_FlexOne">
+    <FlexLayout Direction="Row">
+        
+        <FlexLayout FlexLayout.Grow="1">
+            <BoxView BackgroundColor="Black" FlexLayout.Grow="1"/>
+            <BoxView BackgroundColor="White" FlexLayout.Grow="1"/>
+            <BoxView BackgroundColor="Orange" FlexLayout.Grow="1"/>
+        </FlexLayout>
+        
+        <FlexLayout FlexLayout.Grow="1">
+            <BoxView BackgroundColor="Purple" FlexLayout.Grow="1"/>
+        </FlexLayout>
+    </FlexLayout>
+</ContentPage>
