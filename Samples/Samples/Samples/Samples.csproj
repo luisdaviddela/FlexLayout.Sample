@@ -9,6 +9,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="_Views\CP_Examples.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="_Views\DirectionColumn.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="_Views\DirectionRow.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

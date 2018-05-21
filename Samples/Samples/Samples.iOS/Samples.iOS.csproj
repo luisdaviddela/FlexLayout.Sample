@@ -156,4 +156,7 @@
       <Name>Samples</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\aguila.png" />
+  </ItemGroup>
 </Project>
