@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.CP_FlexThree">
+    <FlexLayout Direction="Column">
+        <FlexLayout Direction="Column" FlexLayout.Grow="1" AlignItems="Center">
+            <Label Text="Luis David De La Cruz" BackgroundColor="Red"/>
+            <Label Text="Luis David De La Cruz" BackgroundColor="Yellow"/>
+        </FlexLayout>
+        <FlexLayout Direction="Column" FlexLayout.Grow="1" AlignItems="End">
+            <Label Text="Luis David De La Cruz" BackgroundColor="Aqua"/>
+            <Label Text="Luis David De La Cruz" BackgroundColor="SpringGreen"/>
+        </FlexLayout>
+        <FlexLayout Direction="Column" FlexLayout.Grow="1" AlignItems="Start">
+            <Label Text="Luis David De La Cruz" BackgroundColor="Aqua"/>
+            <Label Text="Luis David De La Cruz" BackgroundColor="SpringGreen"/>
+        </FlexLayout>
+        <FlexLayout Direction="Column" FlexLayout.Grow="1" AlignItems="Stretch">
+            <Label Text="Luis David De La Cruz" BackgroundColor="Aqua"/>
+            <Label Text="Luis David De La Cruz" BackgroundColor="SpringGreen"/>
+        </FlexLayout>
+    </FlexLayout>
+</ContentPage>
