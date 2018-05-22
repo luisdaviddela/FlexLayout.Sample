@@ -11,7 +11,7 @@ namespace Samples
 		{
 			InitializeComponent();
 
-			MainPage = new CP_FlexThree();
+			MainPage = new CP_FlexFive();
 		}
 
 		protected override void OnStart ()

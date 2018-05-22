@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.CP_FlexFour">
+
+    <FlexLayout Direction="Column">
+        <FlexLayout Direction="Column" BackgroundColor="Aqua" FlexLayout.Basis="200" AlignItems="Center">
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+            <Label Text="Basis"/>
+
+        </FlexLayout>
+        <FlexLayout Direction="Column" FlexLayout.Basis="80" AlignItems="Center" BackgroundColor="Aquamarine">
+            <Label Text="Basis"/>
+            <Label Text="80" />
+        </FlexLayout>
+        <FlexLayout Direction="Column" FlexLayout.Basis="30" AlignItems="Center" BackgroundColor="CornflowerBlue">
+            <Label Text="Basis" />
+            <Label Text="10" />
+        </FlexLayout>
+        <FlexLayout Direction="Column" FlexLayout.Basis="40" AlignItems="Center" BackgroundColor="DodgerBlue">
+            <Label Text="Basis 40" />
+            <Label Text="Basis 40" />
+        </FlexLayout>
+    </FlexLayout>
+</ContentPage>

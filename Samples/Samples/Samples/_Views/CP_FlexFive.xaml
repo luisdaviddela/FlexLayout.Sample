@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Samples.CP_FlexFive">
+    <FlexLayout Direction="Row" >
+        <Label Text="Label" BackgroundColor="AntiqueWhite"/>
+        <Label Text="Label" BackgroundColor="SaddleBrown"/>
+        <Label Text="Label" BackgroundColor="Purple"/>
+        <Label Text="Label" BackgroundColor="Wheat"/>
+    </FlexLayout>
+</ContentPage>

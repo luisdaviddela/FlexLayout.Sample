@@ -9,6 +9,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="_Views\CP_FlexFive.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="_Views\CP_FlexFour.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="_Views\CP_FlexThree.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
